@@ -1,0 +1,54 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "applicationCategory": "Technology for Human Learning",
+    "author": [
+        {
+            "id": "http://orcid.org/0000-0003-1790-6418",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sorbonne Université; IMT Nord Europe"
+            },
+            "email": "gaelle.guigon@imt-nord-europe.fr",
+            "familyName": "Guigon",
+            "givenName": "Gaëlle"
+        },
+        {
+            "id": "http://orcid.org/0000-0001-6101-5132",
+            "type": "Person",
+            "affiliation": {
+                "type": "Organization",
+                "name": "Sorbonne Université, CNRS, INS HEA"
+            },
+            "email": "mathieu.muratet@lip6.fr",
+            "familyName": "Muratet",
+            "givenName": "Mathieu"
+        }
+    ],
+    "codeRepository": "https://github.com/GuigonGaelle/RLGchecker.git",
+    "dateCreated": "2024-04-05",
+    "dateModified": "2024-07-09",
+    "datePublished": "2024-07-09",
+    "description": "The core objective of our system is to automatically verify whether common tasks in RLG quests can be performed concurrently.\nIt is used with the Laalys tool to analyse Petri nets.",
+    "downloadUrl": "https://github.com/GuigonGaelle/RLGchecker/archive/refs/heads/main.zip",
+    "funder": {
+        "type": "Organization",
+        "name": "Sorbonne Université & IMT Nord Europe "
+    },
+    "isPartOf": "https://innovation-pedagogique.imt-nord-europe.fr/RLG/",
+    "keywords": [
+        "serious game",
+        "petri net",
+        "automated-check",
+        "cooperation"
+    ],
+    "license": "https://spdx.org/licenses/CC-BY-NC-SA-4.0",
+    "name": "RLGchecker",
+    "programmingLanguage": "Python",
+    "relatedLink": "https://rlgmaker.imt-nord-europe.fr/",
+    "softwareRequirements": "https://github.com/Mocahteam/Laalys",
+    "version": "3.0.0",
+    "developmentStatus": "active",
+    "funding": "French Government - France Relance recovery plan - NUCLEOFIL project "
+}
