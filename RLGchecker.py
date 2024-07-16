@@ -13,7 +13,7 @@ import xml.etree.ElementTree as ET
 ##       [{"R1":'1stCommonTaskforR1', "R2":'1stCommonTaskforR2'}, {"R1":'2ndCommonTaskforR1', "R2":'2ndCommonTaskforR2'}], #each list transcribes a sequence of common tasks in the order of execution. If multiple sequences are possible, add each of them in a separate list.
 ##]
 
-#LYCEE **************************** OK
+#EXAMPLE TEST **************************** Comment this section if you want to analyse your own scenario
 
 mainDirectory='V1.4_lycee'
 RoleToRdp={
