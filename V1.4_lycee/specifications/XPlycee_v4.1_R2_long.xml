@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transitions>
+	<transition id="sys K and O"		system="true" end="false" mandatory="true"/>
+	<transition id="sys U and J"		system="true" end="false" mandatory="true"/>
+	<transition id="sys opening KOQNR"	system="true" end="false" mandatory="true"/>
+	<transition id="sys opening UJ"		system="true" end="false" mandatory="true"/>
+	<transition id="sys valid I"		system="true" end="false" mandatory="true"/>
+	<transition id="sys valid J"		system="true" end="false" mandatory="true"/>
+	<transition id="sys valid K"		system="true" end="false" mandatory="true"/>
+	<transition id="sys valid L"		system="true" end="false" mandatory="true"/>
+	<transition id="sys valid N"		system="true" end="false" mandatory="true"/>
+	<transition id="sys valid O"		system="true" end="false" mandatory="true"/>
+	<transition id="sys valid Q"		system="true" end="false" mandatory="true"/>
+	<transition id="sys valid R"		system="true" end="false" mandatory="true"/>
+	<transition id="sys valid S"		system="true" end="false" mandatory="true"/>
+	<transition id="sys valid U"		system="true" end="false" mandatory="true"/>
+	<transition id="sys valid V"		system="true" end="true" mandatory="true"/>
+	<transition id="sys valid Y"		system="true" end="false" mandatory="true"/>
+	<transition id="do I"         system="false" end="false" mandatory="true"/>
+	<transition id="do J"         system="false" end="false" mandatory="true"/>
+	<transition id="do K"         system="false" end="false" mandatory="true"/>
+	<transition id="do L"         system="false" end="false" mandatory="true"/>
+	<transition id="do N"         system="false" end="false" mandatory="false"/>
+	<transition id="do O"         system="false" end="false" mandatory="true"/>
+	<transition id="do Q"         system="false" end="false" mandatory="false"/>
+	<transition id="do R"         system="false" end="false" mandatory="false"/>
+	<transition id="do S"         system="false" end="false" mandatory="false"/>
+	<transition id="do U"         system="false" end="false" mandatory="true"/>
+	<transition id="do V"         system="false" end="false" mandatory="true"/>
+	<transition id="do Y"         system="false" end="false" mandatory="false"/>
+</transitions>

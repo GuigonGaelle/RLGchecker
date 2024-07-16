@@ -1,0 +1,687 @@
+<?xml version="1.0"?>
+<!--created Fri Mar 29 08:49:24 2024 by ndrio version 3.7.5-->
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+ <net id="n-5480-C57D5-0" type ="http://www.pnml.org/version-2009/grammar/ptnet">
+  <name>
+   <text>XPlycee_v4.1_R1_long</text>
+  </name>
+ <page id="g-5480-C57F7-1">
+  <place id="p-5480-C57F9-2">
+  <name>
+   <text>TU A</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="175" y="160"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5808-3">
+  <name>
+   <text>TU B</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="495" y="160"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C580C-4">
+  <name>
+   <text>TU C</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="815" y="160"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C580C-5">
+  <name>
+   <text>TU D</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1265" y="50"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C580D-6">
+  <name>
+   <text>TU E</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1265" y="140"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C580F-7">
+  <name>
+   <text>TU F</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1265" y="260"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5810-8">
+  <name>
+   <text>TU H</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1715" y="150"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5811-9">
+  <name>
+   <text>TU T</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2595" y="140"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5812-10">
+  <name>
+   <text>TU W</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2175" y="200"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5814-11">
+  <name>
+   <text>TU X</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2175" y="70"/>
+   </graphics>
+  </place>
+  <transition id="t-5480-C5814-12">
+  <name>
+   <text>do A</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="95" y="160"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C5817-13">
+  <name>
+   <text>do B</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="415" y="160"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C5818-14">
+  <name>
+   <text>do C</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="735" y="160"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C5819-15">
+  <name>
+   <text>do D</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1185" y="50"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C581A-16">
+  <name>
+   <text>do E</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1185" y="140"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C581B-17">
+  <name>
+   <text>do F</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1185" y="260"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C581D-18">
+  <name>
+   <text>do H</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1635" y="150"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C581E-19">
+  <name>
+   <text>do T</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2515" y="140"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C581F-20">
+  <name>
+   <text>do W</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2095" y="200"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C5873-21">
+  <name>
+   <text>do X</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2095" y="70"/>
+   </graphics>
+  </transition>
+  <place id="p-5480-C5876-22">
+  <name>
+   <text>ready A</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <initialMarking>
+    <text>3</text>
+   </initialMarking>
+   <graphics>
+    <position x="35" y="160"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5878-23">
+  <name>
+   <text>ready B</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="335" y="160"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C587A-24">
+  <name>
+   <text>ready C</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="655" y="160"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C587B-25">
+  <name>
+   <text>ready D</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1115" y="50"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C587D-26">
+  <name>
+   <text>ready E</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1115" y="140"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C587E-27">
+  <name>
+   <text>ready F</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1125" y="260"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5880-28">
+  <name>
+   <text>ready H</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1565" y="150"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5880-29">
+  <name>
+   <text>ready T</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2455" y="140"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5882-30">
+  <name>
+   <text>ready W</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2035" y="200"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5884-31">
+  <name>
+   <text>ready X</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2035" y="70"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5885-32">
+  <name>
+   <text>ready after C</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="955" y="160"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C588E-33">
+  <name>
+   <text>ready after D</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1405" y="50"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C588F-34">
+  <name>
+   <text>ready after E</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1405" y="140"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5891-35">
+  <name>
+   <text>ready after F</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1405" y="260"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5893-36">
+  <name>
+   <text>ready after H</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1865" y="150"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5895-37">
+  <name>
+   <text>ready after W</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2315" y="200"/>
+   </graphics>
+  </place>
+  <place id="p-5480-C5896-38">
+  <name>
+   <text>ready after X</text>
+    <graphics>
+     <offset x="10" y="0" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2315" y="70"/>
+   </graphics>
+  </place>
+  <transition id="t-5480-C5898-39">
+  <name>
+   <text>sys D E and F</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1485" y="150"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C58B5-40">
+  <name>
+   <text>sys X and W</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2375" y="140"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C58B6-41">
+  <name>
+   <text>sys opening DEF</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1015" y="160"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C58B9-42">
+  <name>
+   <text>sys opening XW</text>
+    <graphics>
+     <offset x="0" y="10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1935" y="150"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C58BB-43">
+  <name>
+   <text>sys valid A</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="255" y="160"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C58BD-44">
+  <name>
+   <text>sys valid B</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="575" y="160"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C58BE-45">
+  <name>
+   <text>sys valid C</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="875" y="160"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C58C0-46">
+  <name>
+   <text>sys valid D</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1345" y="50"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C58C0-47">
+  <name>
+   <text>sys valid E</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1345" y="140"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C58C2-48">
+  <name>
+   <text>sys valid F</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1345" y="260"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C58C4-49">
+  <name>
+   <text>sys valid H</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="1785" y="150"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C58C5-50">
+  <name>
+   <text>sys valid T</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2675" y="140"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C58C7-51">
+  <name>
+   <text>sys valid W</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2255" y="200"/>
+   </graphics>
+  </transition>
+  <transition id="t-5480-C58C9-52">
+  <name>
+   <text>sys valid X</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+  </name>
+   <graphics>
+    <position x="2255" y="70"/>
+   </graphics>
+  </transition>
+  <arc id="e-5480-C58CC-53" source="t-5480-C58B6-41" target="p-5480-C587B-25">
+  </arc>
+  <arc id="e-5480-C58CE-54" source="p-5480-C587D-26" target="t-5480-C581A-16">
+  </arc>
+  <arc id="e-5480-C58CF-55" source="t-5480-C581A-16" target="p-5480-C580D-6">
+  </arc>
+  <arc id="e-5480-C58D0-56" source="p-5480-C580D-6" target="t-5480-C58C0-47">
+  </arc>
+  <arc id="e-5480-C58D0-57" source="p-5480-C587E-27" target="t-5480-C581B-17">
+  </arc>
+  <arc id="e-5480-C58D1-58" source="t-5480-C581B-17" target="p-5480-C580F-7">
+  </arc>
+  <arc id="e-5480-C58D1-59" source="p-5480-C580F-7" target="t-5480-C58C2-48">
+  </arc>
+  <arc id="e-5480-C58D2-60" source="p-5480-C5880-28" target="t-5480-C581D-18">
+  </arc>
+  <arc id="e-5480-C58D2-61" source="t-5480-C5814-12" target="p-5480-C57F9-2">
+  </arc>
+  <arc id="e-5480-C58D4-62" source="t-5480-C581D-18" target="p-5480-C5810-8">
+  </arc>
+  <arc id="e-5480-C58D5-63" source="p-5480-C5810-8" target="t-5480-C58C4-49">
+  </arc>
+  <arc id="e-5480-C58D5-64" source="t-5480-C58B6-41" target="p-5480-C587D-26">
+  </arc>
+  <arc id="e-5480-C58D6-65" source="t-5480-C58C4-49" target="p-5480-C5893-36">
+  </arc>
+  <arc id="e-5480-C58E1-66" source="p-5480-C5884-31" target="t-5480-C5873-21">
+  </arc>
+  <arc id="e-5480-C58E2-67" source="t-5480-C5873-21" target="p-5480-C5814-11">
+  </arc>
+  <arc id="e-5480-C58E2-68" source="p-5480-C5814-11" target="t-5480-C58C9-52">
+  </arc>
+  <arc id="e-5480-C58E4-69" source="p-5480-C5882-30" target="t-5480-C581F-20">
+  </arc>
+  <arc id="e-5480-C58E4-70" source="t-5480-C581F-20" target="p-5480-C5812-10">
+  </arc>
+  <arc id="e-5480-C58E5-71" source="p-5480-C5812-10" target="t-5480-C58C7-51">
+  </arc>
+  <arc id="e-5480-C58E5-72" source="p-5480-C5880-29" target="t-5480-C581E-19">
+  </arc>
+  <arc id="e-5480-C58E6-73" source="t-5480-C581E-19" target="p-5480-C5811-9">
+  </arc>
+  <arc id="e-5480-C58E6-74" source="p-5480-C57F9-2" target="t-5480-C58BB-43">
+   <inscription>
+    <text>3</text>
+    <graphics>
+     <offset x="0" y="-10" />
+    </graphics>
+   </inscription>
+  </arc>
+  <arc id="e-5480-C58E7-75" source="t-5480-C58B6-41" target="p-5480-C587E-27">
+  </arc>
+  <arc id="e-5480-C58E8-76" source="p-5480-C5811-9" target="t-5480-C58C5-50">
+  </arc>
+  <arc id="e-5480-C58E9-77" source="p-5480-C5893-36" target="t-5480-C58B9-42">
+  </arc>
+  <arc id="e-5480-C58E9-78" source="t-5480-C58BB-43" target="p-5480-C5878-23">
+  </arc>
+  <arc id="e-5480-C58EA-79" source="t-5480-C58BD-44" target="p-5480-C587A-24">
+  </arc>
+  <arc id="e-5480-C58EA-80" source="t-5480-C58C0-46" target="p-5480-C588E-33">
+  </arc>
+  <arc id="e-5480-C58EB-81" source="t-5480-C58C0-47" target="p-5480-C588F-34">
+  </arc>
+  <arc id="e-5480-C58EC-82" source="p-5480-C5808-3" target="t-5480-C58BD-44">
+  </arc>
+  <arc id="e-5480-C58EC-83" source="t-5480-C58C2-48" target="p-5480-C5891-35">
+  </arc>
+  <arc id="e-5480-C58EE-84" source="p-5480-C5891-35" target="t-5480-C5898-39">
+  </arc>
+  <arc id="e-5480-C58EE-85" source="p-5480-C588F-34" target="t-5480-C5898-39">
+  </arc>
+  <arc id="e-5480-C58EF-86" source="t-5480-C58BE-45" target="p-5480-C5885-32">
+  </arc>
+  <arc id="e-5480-C58EF-87" source="p-5480-C588E-33" target="t-5480-C5898-39">
+  </arc>
+  <arc id="e-5480-C58F0-88" source="t-5480-C5898-39" target="p-5480-C5880-28">
+  </arc>
+  <arc id="e-5480-C58F0-89" source="t-5480-C58B9-42" target="p-5480-C5884-31">
+  </arc>
+  <arc id="e-5480-C58F1-90" source="p-5480-C5896-38" target="t-5480-C58B5-40">
+  </arc>
+  <arc id="e-5480-C58F2-91" source="p-5480-C5895-37" target="t-5480-C58B5-40">
+  </arc>
+  <arc id="e-5480-C58F2-92" source="t-5480-C58B5-40" target="p-5480-C5880-29">
+  </arc>
+  <arc id="e-5480-C58F3-93" source="t-5480-C58C7-51" target="p-5480-C5895-37">
+  </arc>
+  <arc id="e-5480-C58F3-94" source="t-5480-C58C9-52" target="p-5480-C5896-38">
+  </arc>
+  <arc id="e-5480-C58F4-95" source="t-5480-C5817-13" target="p-5480-C5808-3">
+  </arc>
+  <arc id="e-5480-C58F4-96" source="p-5480-C5878-23" target="t-5480-C5817-13">
+  </arc>
+  <arc id="e-5480-C58F5-97" source="p-5480-C5876-22" target="t-5480-C5814-12">
+  </arc>
+  <arc id="e-5480-C58F5-98" source="p-5480-C587A-24" target="t-5480-C5818-14">
+  </arc>
+  <arc id="e-5480-C58F7-99" source="t-5480-C5818-14" target="p-5480-C580C-4">
+  </arc>
+  <arc id="e-5480-C58F7-100" source="p-5480-C580C-4" target="t-5480-C58BE-45">
+  </arc>
+  <arc id="e-5480-C58F8-101" source="t-5480-C58B9-42" target="p-5480-C5882-30">
+  </arc>
+  <arc id="e-5480-C58F9-102" source="t-5480-C5819-15" target="p-5480-C580C-5">
+  </arc>
+  <arc id="e-5480-C58F9-103" source="p-5480-C587B-25" target="t-5480-C5819-15">
+  </arc>
+  <arc id="e-5480-C58F9-104" source="p-5480-C580C-5" target="t-5480-C58C0-46">
+  </arc>
+  <arc id="e-5480-C58FA-105" source="p-5480-C5885-32" target="t-5480-C58B6-41">
+  </arc>
+ </page>
+ </net>
+</pnml>
